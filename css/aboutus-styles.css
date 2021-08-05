@@ -1,0 +1,219 @@
+.theme-toggler {
+  position: fixed;
+  z-index: 3;
+  top: 150px;
+  left: 50px;
+}
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.label {
+  background-color: #111;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  height: 50px;
+  width: 26px;
+  transform: scale(1.5);
+}
+
+.label .ball {
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 22px;
+  width: 22px;
+  transform: translateX(0px);
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateY(24px);
+}
+
+.fa-moon {
+  color: #fff;
+}
+
+.fa-sun {
+  color: #f39c12;
+}
+.dark-mode .label {
+  background-color: rgba(229, 229, 229, 0.4);
+}
+/*-----------------------------------------------------------------*/
+/* Fun Facs
+/*-----------------------------------------------------------------*/
+section {
+  position: relative;
+}
+
+.parallax .container {
+  position: relative;
+}
+
+.parallax {
+  background-attachment: fixed !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.4) url("../images/pattern.png") repeat;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+#facts {
+  background: url(../images/parallax/facts.jpg) no-repeat;
+  padding: 150px 0px 100px;
+}
+
+.facts-box {
+  text-align: center;
+}
+
+.facts-box h3 {
+  font-size: 40px;
+  margin-bottom: 12px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.facts-box span {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.facts-box i {
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+/*-----------------------------------------------------------------*/
+/* Services
+/*-----------------------------------------------------------------*/
+
+#services {
+  padding-bottom: 50px;
+  background: #fff;
+}
+.dark-mode #services {
+  background: #111;
+}
+.services-box {
+  text-align: center;
+  margin-bottom: 50px;
+  border: 1px solid #eae7e7;
+  padding: 29px 10px 20px;
+}
+
+.title-box {
+  border-bottom-width: 0px;
+  margin-bottom: 75px;
+  position: relative;
+}
+
+.title-box h2.title {
+  margin-top: 3rem;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+
+.title-box h2:before {
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 0;
+  margin: -22px auto;
+  position: absolute;
+  width: 40px;
+  background: #262727;
+}
+.dark-mode .title-box h2:before {
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 0;
+  margin: -22px auto;
+  position: absolute;
+  width: 40px;
+  background: #fff;
+}
+.title-box.white h2.title:before {
+  background: #fff;
+}
+
+.title-box.white h2.title {
+  color: #fff;
+}
+
+.title-box.text-center h2:before {
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 0;
+  right: 0;
+  margin: -22px auto;
+  position: absolute;
+  width: 40px;
+  background: #575051;
+}
+
+.title-box.text-right:before {
+  left: auto;
+  right: 0;
+}
+
+.title-box.text-center:before {
+  left: 50%;
+  margin-left: -20px;
+}
+
+.services-box .services-icon {
+  width: 80px;
+  height: 80px;
+  color: #fff;
+  font-size: 38px;
+  line-height: 80px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0px auto;
+  background: #ff1493 none repeat scroll 0% 0%;
+}
+
+.services-box .services-desc {
+  margin-top: 25px;
+}
+
+.services-box .services-desc h4 {
+  margin: 31px 0px 20px;
+}
+.services-desc p {
+  color: #575051;
+}
+.dark-mode .services-desc p {
+  color: #a9a9a9;
+}
