@@ -34,4 +34,27 @@
   // TOOLTIP
   $('.social-links a').tooltip();
 
+  /*------------------------------*/
+  /*	 Parallax
+  /*------------------------------*/
+
+
+  $(window).bind('load', function () {
+    if (!onMobile)
+      parallaxInit();
+  });
+
+  function parallaxInit() {
+    $('#history').parallax("50%", 0.2);
+    $('#facts').parallax("50%", 0.2);
+    $('#cta').parallax("50%", 0.2);
+    $('#skills').parallax("50%", 0.2);
+    $('#video').parallax("50%", 0.2);
+    $('#testimonials').parallax("50%", 0.2);
+    $('#contact').parallax("50%", 0.2);
+    $('#page-header').parallax("50%", 0.2);
+
+    /*add as necessary*/
+  }
+
 })(jQuery);
