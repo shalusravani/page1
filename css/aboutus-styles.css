@@ -8,7 +8,7 @@
   position: fixed;
   z-index: 3;
   top: 150px;
-  left: 50px;
+  left: 5px;
   transform: rotate(-90deg) translate(-100%, 40%);
 }
 .checkbox {
@@ -25,7 +25,7 @@
   justify-content: space-around;
   padding: 5px;
   position: relative;
-  height: 26px;
+  height: 24px;
   width: 100px;
   transform: scale(1.5);
 }
@@ -41,7 +41,7 @@
   position: absolute;
   top: 2px;
   left: 2px;
-  height: 22px;
+  height: 20px;
   width: 44px;
   transform: translateX(50px);
   transition: transform 0.2s linear;
