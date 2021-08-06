@@ -8,8 +8,8 @@
   position: fixed;
   z-index: 3;
   top: 150px;
-  left: 5px;
-  transform: rotate(-90deg) translate(-100%, 40%);
+  left: 0px;
+  transform: rotate(-90deg);
 }
 .checkbox {
   opacity: 0;
