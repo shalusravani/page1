@@ -256,7 +256,7 @@ ul.timeline {
 
 .wrapper {
   max-width: 1080px;
-  margin: 50px auto;
+  margin: 0 auto;
   padding: 0 20px;
   position: relative;
 }
