@@ -25,7 +25,7 @@
   justify-content: space-around;
   padding: 5px;
   position: relative;
-  height: 24px;
+  height: 20px;
   width: 100px;
   transform: scale(1.5);
 }
@@ -34,6 +34,7 @@
   padding: 0;
   color: white;
   font-size: 0.8rem;
+  font-weight: bold;
 }
 .label .ball {
   background-color: rgba(255, 255, 255);
@@ -41,8 +42,8 @@
   position: absolute;
   top: 2px;
   left: 2px;
-  height: 20px;
-  width: 44px;
+  height: 16px;
+  width: 46px;
   transform: translateX(50px);
   transition: transform 0.2s linear;
 }
@@ -395,120 +396,36 @@ ul.timeline {
   }
 }
 
-.holder {
-  margin: 50px auto;
-}
-.holder .parent {
+.signup_card .parent {
   background-color: white;
-  width: calc(100% - 50px);
-  height: calc(100% - 50px);
   display: inline-block;
-  margin-left: 25px;
-  margin-top: 25px;
+  margin: 25px 0;
   border-radius: 7px;
 }
 .holder .parent h3 {
   text-align: center;
   font-size: 25px;
   margin: 20px;
+  color: #0c0c0d;
 }
-form {
-  display: block;
-  border-bottom: 1px dashed #ccc;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-form > div {
-  margin: 20px;
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
-  position: relative;
-}
-form > div::before {
-  content: "\f007";
-  font-weight: 900;
-  font-family: "Font Awesome 5 Free";
-  position: absolute;
-  color: #777;
-  left: -1px;
-}
-form > div:nth-child(2):before {
-  content: "\f2b6";
-}
-form > div:nth-child(3):before {
-  content: "\f023";
-}
-form > div:nth-child(4):before {
-  content: "\f023";
-}
-form div input {
-  border: none;
-  font-family: "Work Sans", sans-serif;
-  font-size: 15px;
-  margin-left: 10px;
-}
-div input + .border {
-  position: absolute;
-  left: 50%;
-  bottom: -1px;
-  background-color: #3498db;
-  height: 1px;
-  width: 0;
-  transition: 0.3s;
-  display: block;
-}
-div input:focus + .border {
-  width: 100%;
-  left: 0;
-}
-form .private-inp {
-  border: none;
-  font-family: "work sans", sans-serif;
-  display: block;
-  margin: auto;
-  background: #2196f3;
-  width: 90%;
-  padding: 10px;
-  border-radius: 7px;
-  margin-bottom: 10px;
-  color: white;
-  font-size: 15px;
-  font-weight: bold;
-  cursor: pointer;
-}
-form p {
-  margin: 20px;
-  text-align: center;
-  font-size: 12px;
-  color: #777;
-  padding: 15px;
-}
-form p a {
-  text-decoration: none;
-  font-weight: bold;
-  color: #2196f3ed;
-}
-.parent h4 {
-  text-align: center;
-  color: #777;
-}
+
 .social {
   text-align: center;
 }
-.social i {
-  width: 40px;
-  height: 40px;
-  background: #3b5998;
+.social .fa-facebook-f {
+  color: #3b5998;
   display: inline-block;
-  padding: 10px;
-  border-radius: 50%;
-  color: white;
+  font-size: 1.2rem;
 }
-.social i:nth-child(2) {
-  background: #1da1f2;
+.social .fa-linkedin {
+  color: #0e76a8;
+  display: inline-block;
+  font-size: 1.2rem;
 }
-.social i:nth-child(3) {
-  background: #db4437;
+.social .fa-google-plus-g {
+  color: #db4437;
+  display: inline-block;
+  font-size: 1.2rem;
 }
 :focus::placeholder {
   opacity: 0;
@@ -517,4 +434,41 @@ form p a {
 
 .signup__container {
   background-color: #0c0c0d;
+}
+
+.underline__or {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-top: 9px;
+  position: relative;
+  text-align: center;
+}
+.underline__or::after {
+  background-color: #e5e1da;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 100%;
+}
+
+.underline__or::after {
+  background-color: #e5e1da;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 100%;
+}
+
+.theme-color {
+  background-color: #ff1493;
 }
