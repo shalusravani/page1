@@ -446,7 +446,7 @@ strong {
 }
 @media (max-width: 580px) {
   .animated-info {
-    min-width: 200px;
+    width: 50%;
   }
   .animated-item {
     font-size: 30px;
@@ -473,6 +473,9 @@ strong {
 @media (max-width: 320px) {
   .animated-text {
     margin-top: 0;
+  }
+  .animated-info {
+    min-width: 100%;
   }
 
   .about-text {
