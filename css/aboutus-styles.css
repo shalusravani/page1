@@ -7,7 +7,7 @@
 .theme-toggler {
   position: fixed;
   z-index: 3;
-  top: 150px;
+  top: 350px;
   left: 0px;
   transform: rotate(-90deg);
 }
@@ -25,15 +25,15 @@
   justify-content: space-around;
   padding: 5px;
   position: relative;
-  height: 20px;
-  width: 80px;
+  height: 15px;
+  width: 60px;
   transform: scale(1.5);
 }
 .label span {
   margin: 0;
   padding: 0;
   color: white;
-  font-size: 0.7rem;
+  font-size: 0.5rem;
   font-weight: bold;
 }
 .label .ball {
@@ -42,9 +42,9 @@
   position: absolute;
   top: 2px;
   left: 2px;
-  height: 16px;
-  width: 36px;
-  transform: translateX(40px);
+  height: 10px;
+  width: 27px;
+  transform: translateX(27px);
   transition: transform 0.2s linear;
 }
 
@@ -61,6 +61,13 @@
 }
 .dark-mode .label {
   background-color: rgba(229, 229, 229, 0.4);
+}
+
+.dark-mode .signup__container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: black;
 }
 /*-----------------------------------------------------------------*/
 /* Fun Facs
@@ -97,6 +104,7 @@ section {
 
 .facts-box {
   text-align: center;
+  padding-bottom: 40px;
 }
 
 .facts-box h3 {
@@ -116,7 +124,8 @@ section {
 .facts-box i {
   color: #fff;
   font-size: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 /*-----------------------------------------------------------------*/
@@ -125,6 +134,9 @@ section {
 
 #services {
   padding-bottom: 50px;
+  padding-top: 10px;
+  margin-left: 70px;
+  margin-right: 70px;
   background: #fff;
 }
 .dark-mode #services {
@@ -132,6 +144,7 @@ section {
 }
 .services-box {
   background-color: rgba(0, 0, 0, 0.1);
+  height: 500px;
   text-align: center;
   margin-bottom: 50px;
   padding: 29px 10px 20px;
@@ -153,7 +166,7 @@ section {
   border-bottom-width: 0px;
   margin-bottom: 75px;
   position: relative;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .title-box h2.title {
@@ -248,7 +261,8 @@ section {
 
 #history {
   background: url("../images/parallax/lights.jpeg");
-  padding-bottom: 40px;
+  padding-bottom: 100px;
+  padding-top: 100;
 }
 
 ul.timeline {
@@ -313,8 +327,8 @@ ul.timeline {
 .center-line .scroll-icon {
   position: absolute;
   background: #f2f2f2;
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
@@ -331,11 +345,11 @@ ul.timeline {
 }
 .row-1 section .icon {
   top: 15px;
-  right: -60px;
+  right: -55px;
 }
 .row-2 section .icon {
   top: 15px;
-  left: -60px;
+  left: -55px;
 }
 .row section .details,
 .row section .bottom {
@@ -397,10 +411,15 @@ ul.timeline {
 }
 
 .signup_card .parent {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
   background-color: white;
+  text-align: left;
   display: inline-block;
-  margin: 25px 0;
+  margin: 25px 25px;
   border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .holder .parent h3 {
   text-align: center;
@@ -433,7 +452,10 @@ ul.timeline {
 }
 
 .signup__container {
-  background-color: #0c0c0d;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: white;
 }
 
 .underline__or {
