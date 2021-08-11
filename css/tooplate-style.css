@@ -450,16 +450,16 @@ strong {
   }
 
   #services {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .animated-item {
     font-size: 25px;
   }
 
-  .animated .text{
-    font-size: 25px;
+  .animated-text{
+    font-size: 35px;
     }
 
   .custom-btn-group {
@@ -486,17 +486,14 @@ strong {
   }
   .animated-text {
     margin-top: 0;
-    font-size: 20px;
+    font-size: 30px;
   }
 
   #services {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
-  .animated .text{
-  font-size: 20px;
-  }
   .animated-info {
     min-width: 100%;
   }
