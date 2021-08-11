@@ -449,7 +449,7 @@ strong {
     width: 50%;
   }
   .animated-item {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .custom-btn-group {
@@ -471,8 +471,16 @@ strong {
   }
 }
 @media (max-width: 320px) {
+  form .btn{
+   font-size: 20px;
+  }
   .animated-text {
     margin-top: 0;
+    font-size: 20px;
+  }
+
+  .animated .mr-2{
+  font-size: 20px;
   }
   .animated-info {
     min-width: 100%;

@@ -431,16 +431,7 @@ ul.timeline {
 .social {
   text-align: center;
 }
-.social .fa-facebook-f {
-  color: #3b5998;
-  display: inline-block;
-  font-size: 1.2rem;
-}
-.social .fa-linkedin {
-  color: #0e76a8;
-  display: inline-block;
-  font-size: 1.2rem;
-}
+
 .social .fa-google-plus-g {
   color: #db4437;
   display: inline-block;
@@ -493,4 +484,11 @@ ul.timeline {
 
 .theme-color {
   background-color: #ff1493;
+}
+
+@media (max-width: 320px){
+  #services {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
