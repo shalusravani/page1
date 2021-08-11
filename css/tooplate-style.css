@@ -448,9 +448,19 @@ strong {
   .animated-info {
     width: 50%;
   }
+
+  #services {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .animated-item {
     font-size: 25px;
   }
+
+  .animated .text{
+    font-size: 25px;
+    }
 
   .custom-btn-group {
     text-align: center;
@@ -479,7 +489,12 @@ strong {
     font-size: 20px;
   }
 
-  .animated .mr-2{
+  #services {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .animated .text{
   font-size: 20px;
   }
   .animated-info {
